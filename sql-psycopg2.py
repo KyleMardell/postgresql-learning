@@ -1,5 +1,8 @@
 import psycopg2
 
+# Using psycopg2 provides a way to execute raw SQL commands
+# This is the most basic way to query data in a PostgreSql database
+
 
 # connect to "chinook" database
 connection = psycopg2.connect(database="chinook")
