@@ -1,5 +1,21 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+When opening a new gitpod workspace:
+
+- type "psql" to open the psql connection
+- type "\l" to list all databases
+- type "CREATE DATABASE chinook" to create the database (check with \l)
+- type "\c chinook" to connect to the chinook database
+- type "\i Chinook_PostgreSql.py" to add the downloaded database model to the created database
+- type "\q" to quit
+
+- type "pip3 install psycopg2"
+- type "pip3 install sqlalchemy"
+
+- type "set_pg" (run this command each time a new gitpod workspace is opened.)
+
+- type "pip freeze > requirements.txt" to generate a requirements file with the current dependencies.
+
 Welcome Kyle Mardell,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
